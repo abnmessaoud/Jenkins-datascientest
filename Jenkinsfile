@@ -17,7 +17,7 @@ stages {
       }
     }
   }
-  stage('Docker run'){ // run container from our builded image
+  stage('Docker runn'){ // run container from our builded image
     steps {
       script {
       sh '''
